@@ -5,9 +5,9 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.example.bottomnavbardemo.Route.NAV_ROUTE_HOME
-import com.example.bottomnavbardemo.Route.NAV_ROUTE_PROFILE
-import com.example.bottomnavbardemo.Route.NAV_ROUTE_SETTINGS
+import com.example.bottomnavbardemo.navigation.Route.NAV_ROUTE_HOME
+import com.example.bottomnavbardemo.navigation.Route.NAV_ROUTE_PROFILE
+import com.example.bottomnavbardemo.navigation.Route.NAV_ROUTE_SETTINGS
 
 sealed class BottomBarScreen(
     val route: String,

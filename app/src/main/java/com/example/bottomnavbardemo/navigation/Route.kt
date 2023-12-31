@@ -1,4 +1,4 @@
-package com.example.bottomnavbardemo
+package com.example.bottomnavbardemo.navigation
 
 object Route{
     const val NAV_ROUTE_HOME: String = "home"
